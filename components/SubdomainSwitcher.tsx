@@ -26,7 +26,8 @@ const SubdomainSwitcher = () => {
             const isDev = process.env.NODE_ENV === 'development';
             window.location.href = isDev
               ? `https://${value}.localhost`
-              : `https://${value}.awildcard.gq`;
+              : // Change domain as needed
+                `https://${value}.shopeetracker.com`;
           }
         }}
       >
